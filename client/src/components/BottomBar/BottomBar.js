@@ -14,6 +14,8 @@ import Icons from "../HomepageIconTray/Icons";
 import Header from "../Header/Header";
 import BarGraph from "../BarGraph/BarGraph";
 
+import Signup from "../../pages/Signup";
+import LoginPage from "../../pages/LoginPage";
 import MyCardpage from "../../pages/MyCardpage";
 import Homepage from '../../pages/Homepage';
 import Empty from "../Empty";
@@ -82,7 +84,7 @@ export default function BottomBar() {
 
           <Tab.Screen
             name="profileStack"
-            component={Empty}
+            component={Signup}
             options={{
               tabBarLabel: "Profile",
               tabBarIcon: ({ color, size }) => (
