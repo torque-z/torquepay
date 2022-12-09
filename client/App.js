@@ -5,7 +5,5 @@ import RecentTransaction from "./src/components/RecentTransaction/RecentTransact
 import { useFonts } from "expo-font";
 
 export default function App() {
-
-
   return <BottomBar />;
 }
